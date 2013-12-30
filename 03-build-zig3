@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir zonation3/build && cd zonation3/build
+cmake ../src-3
+make

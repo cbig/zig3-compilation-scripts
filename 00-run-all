@@ -1,0 +1,10 @@
+#!/bin/sh
+
+./01-deps-zig3
+./02-wget-zig3
+./03-build-zig3
+./04-postinstall-zig3
+./05-deps-zrunner
+./06-install-zrunner
+./07-git-tutorial
+./08-run-tutorial

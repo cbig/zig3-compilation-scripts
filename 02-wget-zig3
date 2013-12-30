@@ -1,0 +1,8 @@
+#!/bin/sh
+
+ZSRC_FILE='zig3-3.1.11-src.tar.bz2'
+
+mkdir zonation3
+cd zonation3
+wget http://cbig.it.helsinki.fi/files/zonation/zig3-src/$ZSRC_FILE
+tar -jxvf $ZSRC_FILE

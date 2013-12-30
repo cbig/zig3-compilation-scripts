@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+sudo apt-get update
+
+# build/development tools
+sudo apt-get -y install cmake
+
+# Zonation dependencies
+sudo apt-get -y install libqt4-dev
+sudo apt-get -y install libfftw3-dev
+sudo apt-get -y install libqwt-dev
+sudo apt-get -y install libboost-all-dev
+sudo apt-get -y install libgdal-dev
+ 

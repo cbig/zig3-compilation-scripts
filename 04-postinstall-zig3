@@ -1,0 +1,6 @@
+#!/bin/bash
+ 
+set -e
+
+echo "Creating a symbolic link /usr/local/bin/zig3"
+sudo ln -s $PWD/zonation3/build/zig3/zig3 /usr/local/bin/zig3

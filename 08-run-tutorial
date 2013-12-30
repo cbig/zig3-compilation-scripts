@@ -1,0 +1,3 @@
+#!/bin/bash
+
+zrunner -l tutorial_runs.yaml
