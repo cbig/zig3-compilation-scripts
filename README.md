@@ -129,7 +129,7 @@ Alternatively, run:
 
 ### 8. Run the tutorial runs
 
-You can run [5 basic tutorial variants](https://github.com/cbig/zonation-tutorial/tree/master/basic) defined in the configuration file `tutorial_runs.yaml` by using zrunner:
+You can run [5 basic tutorial variants](https://github.com/cbig/zonation-tutorial/tree/master/basic) defined in the configuration file [`tutorial_runs.yaml`](https://github.com/cbig/zig3-compilation-scripts/blob/master/tutorial_runs.yaml) in this repository (note that similar file is found from within the tutorial repository as well) by using zrunner:
 
 ```
 zrunner -l tutorial_runs.yaml
